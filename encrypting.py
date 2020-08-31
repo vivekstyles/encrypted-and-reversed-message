@@ -1,0 +1,1 @@
+userInput = "d89%l++5r19o7W*o=l645le9h"words = list()result = str()words.append(' ')for i in userInput:    if i >= 'a' and i <= 'z':        words += i    elif i >= 'A' and i <= 'Z':        words += i + ' 'n = len(words)-1while n != 0:    result += words[n]    n -= 1print("encoded message...\n")print(result)
